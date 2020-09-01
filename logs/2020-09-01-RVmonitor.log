@@ -1168,3 +1168,37 @@ Low limit 55
 2020-09-01 17:30:05,655 CRITICAL Ending run of the RV Temp Monitor
 2020-09-01 17:30:05,655 CRITICAL **
 
+2020-09-01 17:45:03,126 CRITICAL **
+2020-09-01 17:45:03,127 CRITICAL Starting the RV Temp Monitor
+2020-09-01 17:45:03,127 CRITICAL **
+2020-09-01 17:45:03,509 INFO No need to send email, temps are acceptable
+2020-09-01 17:45:03,510 INFO 
+Garage 73
+Main 75
+Bedroom 72
+Batt V 13.6
+Gen State OFF
+Hi limit 80
+Low limit 55
+2020-09-01 17:45:05,922 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-09-01 17:45:05,923 CRITICAL **
+2020-09-01 17:45:05,923 CRITICAL Ending run of the RV Temp Monitor
+2020-09-01 17:45:05,924 CRITICAL **
+
+2020-09-01 18:00:02,390 CRITICAL **
+2020-09-01 18:00:02,391 CRITICAL Starting the RV Temp Monitor
+2020-09-01 18:00:02,391 CRITICAL **
+2020-09-01 18:00:02,761 INFO No need to send email, temps are acceptable
+2020-09-01 18:00:02,761 INFO 
+Garage 72
+Main 74
+Bedroom 71
+Batt V 13.6
+Gen State OFF
+Hi limit 80
+Low limit 55
+2020-09-01 18:00:05,203 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-09-01 18:00:05,204 CRITICAL **
+2020-09-01 18:00:05,204 CRITICAL Ending run of the RV Temp Monitor
+2020-09-01 18:00:05,205 CRITICAL **
+
