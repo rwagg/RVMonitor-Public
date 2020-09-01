@@ -1,0 +1,103 @@
+# This is the config file for the RVmonitor app.  
+# this file should be named rvmonitor.ini and should reside in the directory /RVmonitor,
+# the application is hard coded to look there.
+# The EMAIL ACCOUNT section and the NOTIFICATION ADDRESS section are required.
+
+# Be sure to get the settings correct, the app will crash if the settings below are incorrect. 
+
+# I created a cron job that runs the RVtemp.sh file every 15 minutes. Here is the command is use for cron
+#    And yes it starts with a '*/15' 
+# Entry to add to cron -->   */15 * * * * /home/pi/RVmonitor/rvtemp.sh
+
+[EMAIL ACCOUNT]
+# This is the user name of the user name / password combo  for the email account that will be used to send
+# the notifications. 
+# - These are the credentials that log into O365 and is the sender address
+email_userName = user@domain.com 
+# This is the password for the email account that will be used to send out the notifications.
+email_password = pw in plain text
+
+# The Sender Name in case its different than the user name 
+# - This is the "From on the message"
+# usually this email address will be the same as the email_userName, but you could change it.
+email_senderName = sender@domain.com 
+
+# This is the email address / or text address that will receive the alerts
+# This address is where emergency notifications are sent when the temperature is 
+# outside of acceptable boundaries as defined in the THRESHOLDS section.
+# to send the alert as a text to your AT&T cell phone, you would put an address of
+# AT&T     --> number@mms.att.net  as the notification_address
+# I think the other provideers use the following format, please test to confirm:
+# Verizon  --> number@vtext.com 
+# T-Mobile --> number@tmomail.net
+# Sprint   --> number@messaging.sprintpcs.com 
+[NOTIFICATION ADDRESS]
+notification_address = alert@domain.com 
+
+[LOG ADDRESS]
+# I have a second email address that is able to receive the alert message every time the application runs.
+# I use this as a log, but it does not trigger an alert on my phone. This address gets emailed for EVERY run 
+# I have this as an additional email address on my phone, but I've disabled alerts when this address 
+# receives emails. This email address lets me check:
+# 1. The last time the RVmonitor ran and recorded temperatures
+# 2. Is always proactivly available on my phone so I can check temps for my own piece of mind.
+# 3. Just so I know the application is actually running. I do not assume "no news is good news" when 
+#    I'm doing this to protect my pet(s)
+# Enter a valid email address to email logs to, these logs will be sent everytime the app runs.
+# If you do not want logs email to a second address, just set the log_address to none. 
+# log_address = none 
+log_address = logaddress@doman.com
+
+# This is the IP Address of the Raspberry PI that runs One Control
+# It should always be port 8080, the IP address may be different, 
+# but probably won't be other than 192.168.1.4
+# This section is only necessary if your One Control Pi is located at a different IP Address, 
+# it defaults to http://192.168.1.4:8080.
+# To test if the 192.168.1.4 address is correct, take your computer or phone, connect it to the One Control 
+# WiFi, open your browser and go to http://192.168.1.4:8080 . You should see a page that says 
+# openHAB (among other things). If you see openHAB in Orange and White (as of this writing), 
+# your address is correct.
+[PI INFORMATION]
+base_url = http://192.168.1.4:8080
+
+# The logging section is so you can decide how much to log and how long you want to keep the logs
+# By default, everything is logged and kept for 90 days.
+[LOGGING]
+# logging.CRITICAL = 50 - only critical errors
+# logging.ERROR = 40
+# logging.WARNING = 30
+# logging.INFO = 20
+# logging.DEBUG = 10 - debug messages
+# logging.NOTSET = 0  - Logs everything
+
+# This is the name of the log file and the location of the logs.
+# You can change the destination location of the logs on your Pi. 
+# I ONLY suggest changing the location if you have storage space issues.
+# I have my logging level set to 20 and run the app every 15 minutes. 
+# These settings generate a 51K log file for each day the application runs. 
+# you can also change the 'log_retention' period to save fewer or more logs.
+# by default it will keep 30 days worth of logs.
+log_file = RVmonitor.log
+log_path = /RVmonitor/logs/
+
+# log_level of 10 will dump the contents of the rvmonitor.ini file to the log file and create a larger log file
+# log_level of 20 is recommended for good logs. If you want the temps recorded in the log file everytime the app runs, 
+# The log_level must be at 20 or below. If you raise the log_level to 50, you will only get a record that the app ran.
+
+log_level = 20
+
+# how long do you want to keep old logs (in days)?
+log_retention = 30
+
+# These are the temperature thresholds. If the temp is higher than temp_hi or lower than temp_low
+# and alert will be sent to the email address 'notification_address' above. I have this email address setup 
+# to point to an O365 distribution list that contains the text numbers for my, and my wifes cell phone.
+[THRESHOLDS]
+temp_hi = 80
+temp_low = 55
+
+# use_garage_temp = true means that we will alert (to the 'notification_address') on the garage temp 
+# as well as the other temps. If you want to ignore the garage temperature,
+# as far as alerts go, set use_garage_temp to false
+# setting this to false would be handy if you keep the garage closed off, or open to the outside.
+use_garage_temp = true

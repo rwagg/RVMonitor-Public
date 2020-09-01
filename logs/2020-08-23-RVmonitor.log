@@ -1,0 +1,411 @@
+2020-08-23 19:41:01,941 CRITICAL **
+2020-08-23 19:41:01,941 CRITICAL Starting the RV Temp Monitor
+2020-08-23 19:41:01,941 CRITICAL **
+2020-08-23 19:41:02,289 INFO No need to send email, temps are acceptable
+2020-08-23 19:41:02,290 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 19:41:02,290 CRITICAL **
+2020-08-23 19:41:02,290 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 19:41:02,290 CRITICAL **
+
+2020-08-23 19:42:02,053 CRITICAL **
+2020-08-23 19:42:02,054 CRITICAL Starting the RV Temp Monitor
+2020-08-23 19:42:02,056 CRITICAL **
+2020-08-23 19:42:02,382 INFO No need to send email, temps are acceptable
+2020-08-23 19:42:02,382 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 19:42:02,383 CRITICAL **
+2020-08-23 19:42:02,383 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 19:42:02,383 CRITICAL **
+
+2020-08-23 19:43:02,137 CRITICAL **
+2020-08-23 19:43:02,137 CRITICAL Starting the RV Temp Monitor
+2020-08-23 19:43:02,137 CRITICAL **
+2020-08-23 19:43:02,455 INFO No need to send email, temps are acceptable
+2020-08-23 19:43:02,456 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 19:43:06,582 INFO Gathered temps and emailed to log address 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 19:43:06,583 CRITICAL **
+2020-08-23 19:43:06,583 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 19:43:06,584 CRITICAL **
+
+2020-08-23 19:44:02,408 CRITICAL **
+2020-08-23 19:44:02,409 CRITICAL Starting the RV Temp Monitor
+2020-08-23 19:44:02,410 CRITICAL **
+2020-08-23 19:44:02,732 INFO No need to send email, temps are acceptable
+2020-08-23 19:44:02,732 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 19:44:06,446 INFO Gathered temps and emailed to log address 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 19:44:06,447 CRITICAL **
+2020-08-23 19:44:06,447 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 19:44:06,447 CRITICAL **
+
+2020-08-23 19:45:02,220 CRITICAL **
+2020-08-23 19:45:02,221 CRITICAL Starting the RV Temp Monitor
+2020-08-23 19:45:02,222 CRITICAL **
+2020-08-23 19:45:02,546 INFO No need to send email, temps are acceptable
+2020-08-23 19:45:02,547 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 19:45:06,566 INFO Gathered temps and emailed to log address 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 19:45:06,567 CRITICAL **
+2020-08-23 19:45:06,568 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 19:45:06,568 CRITICAL **
+
+2020-08-23 19:46:02,368 CRITICAL **
+2020-08-23 19:46:02,368 CRITICAL Starting the RV Temp Monitor
+2020-08-23 19:46:02,368 CRITICAL **
+2020-08-23 19:46:02,722 INFO No need to send email, temps are acceptable
+2020-08-23 19:46:02,722 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 19:46:05,627 INFO Gathered temps and emailed to log address 
+rvlogs@robhome.com
+2020-08-23 19:46:05,628 CRITICAL **
+2020-08-23 19:46:05,628 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 19:46:05,628 CRITICAL **
+
+2020-08-23 19:47:02,383 CRITICAL **
+2020-08-23 19:47:02,384 CRITICAL Starting the RV Temp Monitor
+2020-08-23 19:47:02,385 CRITICAL **
+2020-08-23 19:47:02,762 INFO No need to send email, temps are acceptable
+2020-08-23 19:47:02,763 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 19:47:05,242 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 19:47:05,243 CRITICAL **
+2020-08-23 19:47:05,243 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 19:47:05,244 CRITICAL **
+
+2020-08-23 20:00:02,007 CRITICAL **
+2020-08-23 20:00:02,007 CRITICAL Starting the RV Temp Monitor
+2020-08-23 20:00:02,007 CRITICAL **
+2020-08-23 20:00:02,346 INFO No need to send email, temps are acceptable
+2020-08-23 20:00:02,347 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 20:00:06,327 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 20:00:06,328 CRITICAL **
+2020-08-23 20:00:06,328 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 20:00:06,329 CRITICAL **
+
+2020-08-23 20:15:02,096 CRITICAL **
+2020-08-23 20:15:02,097 CRITICAL Starting the RV Temp Monitor
+2020-08-23 20:15:02,097 CRITICAL **
+2020-08-23 20:15:02,446 INFO No need to send email, temps are acceptable
+2020-08-23 20:15:02,446 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 20:15:06,538 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 20:15:06,538 CRITICAL **
+2020-08-23 20:15:06,541 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 20:15:06,541 CRITICAL **
+
+2020-08-23 20:30:02,436 CRITICAL **
+2020-08-23 20:30:02,437 CRITICAL Starting the RV Temp Monitor
+2020-08-23 20:30:02,437 CRITICAL **
+2020-08-23 20:30:02,795 INFO No need to send email, temps are acceptable
+2020-08-23 20:30:02,796 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 20:30:05,768 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 20:30:05,768 CRITICAL **
+2020-08-23 20:30:05,769 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 20:30:05,769 CRITICAL **
+
+2020-08-23 20:45:02,548 CRITICAL **
+2020-08-23 20:45:02,548 CRITICAL Starting the RV Temp Monitor
+2020-08-23 20:45:02,548 CRITICAL **
+2020-08-23 20:45:02,838 INFO No need to send email, temps are acceptable
+2020-08-23 20:45:02,838 INFO 
+Garage 74
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 20:45:06,668 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 20:45:06,668 CRITICAL **
+2020-08-23 20:45:06,669 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 20:45:06,669 CRITICAL **
+
+2020-08-23 21:00:02,439 CRITICAL **
+2020-08-23 21:00:02,439 CRITICAL Starting the RV Temp Monitor
+2020-08-23 21:00:02,439 CRITICAL **
+2020-08-23 21:00:02,751 INFO No need to send email, temps are acceptable
+2020-08-23 21:00:02,751 INFO 
+Garage 73
+Main 74
+Bedroom 71
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 21:00:05,896 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 21:00:05,896 CRITICAL **
+2020-08-23 21:00:05,897 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 21:00:05,897 CRITICAL **
+
+2020-08-23 21:15:01,674 CRITICAL **
+2020-08-23 21:15:01,675 CRITICAL Starting the RV Temp Monitor
+2020-08-23 21:15:01,679 CRITICAL **
+2020-08-23 21:15:02,011 INFO No need to send email, temps are acceptable
+2020-08-23 21:15:02,012 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 21:15:04,548 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 21:15:04,549 CRITICAL **
+2020-08-23 21:15:04,549 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 21:15:04,549 CRITICAL **
+
+2020-08-23 21:30:02,410 CRITICAL **
+2020-08-23 21:30:02,410 CRITICAL Starting the RV Temp Monitor
+2020-08-23 21:30:02,410 CRITICAL **
+2020-08-23 21:30:02,732 INFO No need to send email, temps are acceptable
+2020-08-23 21:30:02,732 INFO 
+Garage 72
+Main 74
+Bedroom 70
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 21:30:07,627 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 21:30:07,627 CRITICAL **
+2020-08-23 21:30:07,630 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 21:30:07,630 CRITICAL **
+
+2020-08-23 21:45:02,397 CRITICAL **
+2020-08-23 21:45:02,398 CRITICAL Starting the RV Temp Monitor
+2020-08-23 21:45:02,398 CRITICAL **
+2020-08-23 21:45:02,702 INFO No need to send email, temps are acceptable
+2020-08-23 21:45:02,702 INFO 
+Garage 73
+Main 74
+Bedroom 71
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 21:45:05,384 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 21:45:05,385 CRITICAL **
+2020-08-23 21:45:05,385 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 21:45:05,385 CRITICAL **
+
+2020-08-23 22:00:02,174 CRITICAL **
+2020-08-23 22:00:02,175 CRITICAL Starting the RV Temp Monitor
+2020-08-23 22:00:02,175 CRITICAL **
+2020-08-23 22:00:02,505 INFO No need to send email, temps are acceptable
+2020-08-23 22:00:02,506 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 22:00:06,550 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 22:00:06,551 CRITICAL **
+2020-08-23 22:00:06,554 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 22:00:06,554 CRITICAL **
+
+2020-08-23 22:15:02,327 CRITICAL **
+2020-08-23 22:15:02,327 CRITICAL Starting the RV Temp Monitor
+2020-08-23 22:15:02,327 CRITICAL **
+2020-08-23 22:15:02,680 INFO No need to send email, temps are acceptable
+2020-08-23 22:15:02,681 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 22:15:05,494 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 22:15:05,495 CRITICAL **
+2020-08-23 22:15:05,495 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 22:15:05,496 CRITICAL **
+
+2020-08-23 22:30:02,392 CRITICAL **
+2020-08-23 22:30:02,392 CRITICAL Starting the RV Temp Monitor
+2020-08-23 22:30:02,392 CRITICAL **
+2020-08-23 22:30:02,736 INFO No need to send email, temps are acceptable
+2020-08-23 22:30:02,737 INFO 
+Garage 73
+Main 73
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 22:30:05,648 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 22:30:05,648 CRITICAL **
+2020-08-23 22:30:05,649 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 22:30:05,649 CRITICAL **
+
+2020-08-23 22:45:02,417 CRITICAL **
+2020-08-23 22:45:02,418 CRITICAL Starting the RV Temp Monitor
+2020-08-23 22:45:02,420 CRITICAL **
+2020-08-23 22:45:02,724 INFO No need to send email, temps are acceptable
+2020-08-23 22:45:02,724 INFO 
+Garage 73
+Main 74
+Bedroom 73
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 22:45:06,626 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 22:45:06,626 CRITICAL **
+2020-08-23 22:45:06,629 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 22:45:06,629 CRITICAL **
+
+2020-08-23 23:00:02,415 CRITICAL **
+2020-08-23 23:00:02,419 CRITICAL Starting the RV Temp Monitor
+2020-08-23 23:00:02,419 CRITICAL **
+2020-08-23 23:00:02,720 INFO No need to send email, temps are acceptable
+2020-08-23 23:00:02,720 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 23:00:06,602 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 23:00:06,603 CRITICAL **
+2020-08-23 23:00:06,603 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 23:00:06,604 CRITICAL **
+
+2020-08-23 23:15:02,402 CRITICAL **
+2020-08-23 23:15:02,402 CRITICAL Starting the RV Temp Monitor
+2020-08-23 23:15:02,402 CRITICAL **
+2020-08-23 23:15:02,743 INFO No need to send email, temps are acceptable
+2020-08-23 23:15:02,743 INFO 
+Garage 73
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 23:15:05,592 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 23:15:05,593 CRITICAL **
+2020-08-23 23:15:05,593 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 23:15:05,593 CRITICAL **
+
+2020-08-23 23:30:02,489 CRITICAL **
+2020-08-23 23:30:02,489 CRITICAL Starting the RV Temp Monitor
+2020-08-23 23:30:02,489 CRITICAL **
+2020-08-23 23:30:02,874 INFO No need to send email, temps are acceptable
+2020-08-23 23:30:02,874 INFO 
+Garage 73
+Main 73
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 23:30:07,181 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 23:30:07,182 CRITICAL **
+2020-08-23 23:30:07,182 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 23:30:07,182 CRITICAL **
+
+2020-08-23 23:45:01,965 CRITICAL **
+2020-08-23 23:45:01,965 CRITICAL Starting the RV Temp Monitor
+2020-08-23 23:45:01,965 CRITICAL **
+2020-08-23 23:45:02,269 INFO No need to send email, temps are acceptable
+2020-08-23 23:45:02,269 INFO 
+Garage 74
+Main 74
+Bedroom 72
+Batt V 13.7
+Gen State OFF
+Hi limit 80
+Low limit 60
+2020-08-23 23:45:05,317 INFO Gathered temps and emailed to log address :rvlogs@robhome.com
+2020-08-23 23:45:05,318 CRITICAL **
+2020-08-23 23:45:05,318 CRITICAL Ending run of the RV Temp Monitor
+2020-08-23 23:45:05,319 CRITICAL **
+
