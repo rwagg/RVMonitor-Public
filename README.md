@@ -56,9 +56,13 @@ sudo chmod +x /RVmonitor/rvtemp.sh
 Take the file rvmonitor.ini.Example and rename it to rvmonitor.ini. If the file rvmonitor.ini is missing, the application will crash.
 
 Configure cron to run the application every 15 minutes. Use the command line
+
 sudo crontab -e (and choose your favorite editor if this is the first time to use cron)
+
 At the bottom of the file add the following line:
+
 */15 * * * * /RVmonitor/rvtemp.sh
+
 This command tells cron to run the file rvtemp.sh every 15 minutes.
 
 
