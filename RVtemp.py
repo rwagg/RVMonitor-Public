@@ -97,7 +97,8 @@ def get_RVTemp():
 
             temperature = "{:.0f}".format(numTemp,1)
             message += name + ' ' + temperature + '\n'
-
+            
+# This does assume you only have a single generator
         message += "Batt V " + str(generator_details['Battery Voltage']) + '\n'
         message += 'Gen State ' + generator_details['Running State'] + '\n'
         message += "Hi limit " + tempHi + '\n'
