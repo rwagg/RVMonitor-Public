@@ -15,7 +15,11 @@ This application will send a text alert if the temperatures are out of our defin
 separate email account each time the application runs. I do this so I can easily ensure that the application is running as it is supposed to and I can 
 proactively check on the RV temperatures.
 
-Definations:
+Definations/Assumptions:
+
+Internet Access - I have a SIM in my One Control so it acts as a Wifi hotspot. All of the internet access for this solution is based on accessing the internet 
+        via this sim card. If your One Control Wifi does not have internet access, you can either add a SIM to it, or some people have added an additional device, 
+        like a Pepwave to the same network as the One Control to provide Internet access.
 
 Alert - This means that the temperature of the RV is outside of the user defined boundaries and will send an email to the address defined in the line 
         'notification_address' in the rvmonitor.ini file. This address can be an email, or a text address. This is the address that receives alerts. 
