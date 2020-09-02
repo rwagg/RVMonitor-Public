@@ -51,8 +51,10 @@ def get_RVTemp():
 
         hvac_devices = {}
         generator_details = {}
+        fuel_tank = {}
         temp = 0
         for k in json_data:
+            # We are looking for the Air-conditioners
             if (k["thingTypeUID"] == "idsmyrv:hvac-thing"):
                 for c in k["channels"]:
                     linkedItem = c["linkedItems"]
@@ -60,7 +62,8 @@ def get_RVTemp():
                     if c['id'] == 'inside-temperature':
                         temp = openhab.get_item(linkedItem)
                         hvac_devices.update({k["label"] : {"UID":k["UID"], "Thing" : linkedItem, "Temp" : temp.state}})
-                    
+            
+            # We are looking for the generator
             if (k["thingTypeUID"] == 'idsmyrv:generator-thing'):
                 for c in k["channels"]:
                     if c['id'] == 'battery-voltage':
@@ -74,6 +77,18 @@ def get_RVTemp():
                         linkedItem = linkedItem.replace('-','_')
                         state = openhab.get_item(linkedItem)
                         generator_details.update({'Running State' : state.state})
+
+            # We are looking for the Fuel Tank sensor
+            if (k["thingTypeUID"] == 'idsmyrv:tank-sensor-thing'):
+                if ((k['label']).lower() == "fuel tank"):
+                    for c in k["channels"]:
+                        if ((c['id']).lower() == "tank-level"):
+                            linkedItem = c['uid'].replace(':','_')
+                            linkedItem = linkedItem.replace('-','_')
+                            temp = openhab.get_item(linkedItem)
+                            print('Fuel Tank level ', end = '')
+                            print (temp.state)
+                            fuel_tank.update({k["label"] : {"UID":k["UID"], "Thing" : linkedItem, "Fuel" :temp.state}})
 
         message = ''
         tempHi = config_settings['temp_hi']
@@ -101,6 +116,8 @@ def get_RVTemp():
 # This does assume you only have a single generator
         message += "Batt V " + str(generator_details['Battery Voltage']) + '\n'
         message += 'Gen State ' + generator_details['Running State'] + '\n'
+        level = "{:.0f}".format(fuel_tank["Fuel Tank"]["Fuel"],0)
+        message += 'Fuel ' + level + "% \n"
         message += "Hi limit " + tempHi + '\n'
         message += "Low limit " + tempLow 
         
