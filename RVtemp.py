@@ -86,8 +86,6 @@ def get_RVTemp():
                             linkedItem = c['uid'].replace(':','_')
                             linkedItem = linkedItem.replace('-','_')
                             temp = openhab.get_item(linkedItem)
-                            print('Fuel Tank level ', end = '')
-                            print (temp.state)
                             fuel_tank.update({k["label"] : {"UID":k["UID"], "Thing" : linkedItem, "Fuel" :temp.state}})
 
         message = ''
