@@ -107,14 +107,17 @@ def get_RVTemp():
                         sendEmail = True
                 else :
                     sendEmail = True
-
+            #pylint: disable=too-many-arguments
             temperature = "{:.0f}".format(numTemp,1)
+            #pylint: enable=too-many-arguments
             message += name + ' ' + temperature + '\n'
             
 # This does assume you only have a single generator
         message += "Batt V " + str(generator_details['Battery Voltage']) + '\n'
         message += 'Gen State ' + generator_details['Running State'] + '\n'
+        #pylint: disable=too-many-arguments
         level = "{:.0f}".format(fuel_tank["Fuel Tank"]["Fuel"],0)
+        #pylint: enable=too-many-arguments
         message += 'Fuel ' + level + "% \n"
         message += "Hi limit " + tempHi + '\n'
         message += "Low limit " + tempLow 
