@@ -16,18 +16,21 @@ separate email account each time the application runs. I do this so I can easily
 proactively check on the RV temperatures.
 
 Definations:
+
 Alert - This means that the temperature of the RV is outside of the user defined boundaries and will send an email to the address defined in the line 
         'notification_address' in the rvmonitor.ini file. This address can be an email, or a text address. This is the address that receives alerts. 
         To text the alert to your cell phone (what I do), I entered my phonenumber@mms.att.net as the notification address. This sends the temperatures 
-        to my phone as a text message. The rvmonitor.ini.Example file includes the formats for sending text messages to phones on a few of the other carriers.
+        to my AT&T phone as a text message. The rvmonitor.ini.Example file includes the formats for sending text messages to phones on a few of the other carriers.
+        
 
 Logs - This application generates a lot of logging. It generates a separate log file each day and is able to clean up log files older than the 'log_retention' 
         setting in the rvmonitor.ini file. This setting is based on the number of days you want to retain the logs. There is not a mechanism to completely disable the logs, 
         so if you don't want them, set the log_retention to 1 or 2 and it will just keep a couple of days of logs. I keep about 5 days worth of logs so I 
         can troubleshoot any abnormalities. 
+        
 
 This application will query the One Control device for the temperatures in each room, then send a text message to the 'notification_address' if any of the temperatures 
-are ourside of the temperature boundaries you define.  Since we are talking about a Toy Hauler, I enabled the option to ignore the temperature in the garage
+are outside of the temperature boundaries you define.  Since we are talking about a Toy Hauler, I enabled the option to ignore the temperature in the garage
 in case the garage temperature is not a concern. Setting the 'use_garage_temp = false' in the rvmonitor.ini file will still cause the temperature in the garage 
 to be reported, but will not generate an alert based on the garage temperature.
 
@@ -40,19 +43,25 @@ In the directory /RVmonitor, please create a directory /RVmonitor/logs/ That is 
 be stored. I tried to generate a lot of logs and assumed storage is cheap. As you can see in the rvmonitor.ini file, 
 you can provide an alternate location for the log files if you need additional storage. Having the application run 
 every 15 minutes 24x7 will generate a log file of about 51K per day. Each day is stored in a separate log file and the 
-application will clean up logs older than the 'log_retention' setting in the rvmonitor.ini file. I did not provide a way to 
-eleminate the log files all together. If you don't want them, please set the log retention to something like 1 or 2. Honestly, 
-I use the log for debugging and to make sure things are running properly. I don't see the little space they consume as an issue.
+application will clean up logs older than the 'log_retention' setting in the rvmonitor.ini file. I use the log for debugging 
+and to make sure things are running properly. I don't see the little space they consume as an issue.
+
 
 
 To Setup the application on your Raspberry Pi:
 
 On the root of your Raspberry Pi, create a directory named '/RVmonitor' and a directory named '/RVmonitor/logs' 
-Set the permissions so that Anyone can View Content, Change Content and Access content. You can do this through the File Manager
-copy all of the .py files into the /RVmonitor directorie, the /logs directory will fill itself.
+
+Set the permissions so that Anyone can View Content, Change Content and Access content. You can do this through the File Manager.
+
+copy all of the .py files into the /RVmonitor directory, the /logs directory will fill itself.
+
 copy the file 'rvtemp.sh' to the /RVmonitor directory as well
+
 use chmod to configure the rvtemp.sh file as an executable, for example
+
 sudo chmod +x /RVmonitor/rvtemp.sh 
+
 Take the file rvmonitor.ini.Example and rename it to rvmonitor.ini. If the file rvmonitor.ini is missing, the application will crash.
 
 Configure cron to run the application every 15 minutes. Use the command line
@@ -65,7 +74,7 @@ At the bottom of the file add the following line:
 
 This command tells cron to run the file rvtemp.sh every 15 minutes.
 
-
+If everything is setup properly, you should start seeing the log file grow every 15 minutes.
 
 
 
