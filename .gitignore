@@ -1,5 +1,5 @@
 rvmonitor.ini
-logs/*.*
+logs/*.log
 *.log
 __pycache__
 *.pyc
