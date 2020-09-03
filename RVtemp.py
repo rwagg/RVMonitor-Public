@@ -121,7 +121,7 @@ def get_RVTemp():
         message += 'Fuel ' + level + "% \n"
         message += "Hi limit " + tempHi + '\n'
         message += "Low limit " + tempLow 
-        
+         
     except:
         message = 'Error, could not read temperatures'
         logger.error('Could not read temperatures')
