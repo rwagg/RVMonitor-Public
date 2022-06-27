@@ -8,6 +8,7 @@
 # I created a cron job that runs the RVtemp.sh file every 15 minutes. Here is the command is use for cron
 #    And yes it starts with a '*/15' 
 # Entry to add to cron -->   */15 * * * * /home/pi/RVmonitor/rvtemp.sh
+# remember to 'chmod +x /home/pi/rvtemp.sh' so the script is allowed to execute.
 
 [EMAIL ACCOUNT]
 # This is the user name of the user name / password combo  for the email account that will be used to send
